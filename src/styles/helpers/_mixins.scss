@@ -31,3 +31,15 @@
   opacity: 1;
   visibility: visible;
 }
+
+// Center element with flex
+@mixin flex-center($isInline: false) {
+  @if $isInline {
+    display: inline-flex;
+  } @else {
+    display: flex;
+  }
+
+  justify-content: center;
+  align-items: center;
+}
