@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/future-tech-project/",
-    "preview": "vite preview --base=/future-tech-project/"
+    "preview": "vite preview --base=/future-tech-project/",
+    "sass-watch": "sass --watch ."
   },
   "devDependencies": {
     "eslint": "^8.57.1",
