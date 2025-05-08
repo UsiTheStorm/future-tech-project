@@ -20,3 +20,14 @@
   );
 }
 
+// Hide element
+@mixin height {
+  opacity: 0;
+  visibility: hidden;
+}
+
+// Show element
+@mixin shor {
+  opacity: 1;
+  visibility: visible;
+}
