@@ -49,3 +49,11 @@ $mobile-s: 480.98;
     @content;
   }
 }
+
+@mixin hover($hasActiveEffectOnMobile: true) {
+  @media (any-hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
