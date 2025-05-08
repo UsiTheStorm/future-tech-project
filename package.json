@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-10/",
-    "preview": "vite preview --base=/goit-js-hw-10/"
+    "build": "vite build --base=/future-tech-project/",
+    "preview": "vite preview --base=/future-tech-project/"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
