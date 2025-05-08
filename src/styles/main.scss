@@ -1,5 +1,12 @@
-@use 'normaize';
+@use 'normalize';
 @use 'fonts';
 @use 'variables';
 @use 'utils';
-@use 'global';
+@use 'globals';
+
+// body {
+//   h1 {
+//     color: red;
+//   }
+//   background: #000;
+// }
