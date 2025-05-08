@@ -52,3 +52,8 @@
   translate: -50% -50%;
 }
 
+// Make square
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
