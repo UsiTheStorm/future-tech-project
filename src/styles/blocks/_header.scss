@@ -33,10 +33,22 @@
       display: contents;
     }
 
-    &:not(.is-active) {
-      @include hide;
+    @include mobile {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 3rem;
+      padding: 1rem;
+      background-color: var(--color-dark-10);
+      transition-duration: var(--transition-duration);
 
-      translate: 100%;
+      &:not(.is-active) {
+        @include hide;
+
+        translate: 100%;
+      }
     }
   }
 
