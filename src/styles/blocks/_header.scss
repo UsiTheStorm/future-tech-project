@@ -7,8 +7,8 @@
     background-color: var(--color-dark);
     border-bottom: var(--border);
 
-    @include mobile {
-      padding-block: rem(14);
+    @include laptop {
+      padding-block: rem(15);
     }
 
     @include mobile-s {
@@ -28,7 +28,7 @@
     padding-block: rem(24);
     background-color: var(--color-dark-10);
 
-    @include mobile {
+    @include laptop {
       padding-block: rem(20);
     }
 
@@ -55,6 +55,7 @@
       padding: 1rem;
       background-color: var(--color-dark-10);
       transition-duration: var(--transition-duration);
+      // padding-bottom: rem(100);
 
       &:not(.is-active) {
         @include hide;
