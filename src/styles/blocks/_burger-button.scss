@@ -15,6 +15,24 @@
     color: var(--color-accent);
   }
 
+  &.is-active {
+    .burger-button__line {
+      &:first-child {
+        rotate: 45deg;
+        transform-origin: 0;
+        translate: 0.25em -0.1em;
+      }
+
+      &:nth-child(2) {
+        rotate: -45deg;
+      }
+
+      &:last-child {
+        width: 0;
+      }
+    }
+  }
+
   &__line {
     width: 100%;
     height: rem(2);
