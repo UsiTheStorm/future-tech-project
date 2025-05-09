@@ -38,13 +38,13 @@ $mobile-s: 480.98;
     @content;
   }
 }
-@mixin mobile-sS-above {
+@mixin mobile-s-above {
   @media (width > rem($mobile-s)) {
     @content;
   }
 }
 
-@mixin mobile-sS {
+@mixin mobile-s {
   @media (width <= rem($mobile-s)) {
     @content;
   }
