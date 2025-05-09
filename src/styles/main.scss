@@ -4,9 +4,8 @@
 @use 'utils';
 @use 'globals';
 
-// body {
-//   h1 {
-//     color: red;
-//   }
-//   background: #000;
-// }
+@use 'blocks/icon';
+@use 'blocks/logo';
+@use 'blocks/button';
+@use 'blocks/burger-button';
+@use 'blocks/header';
