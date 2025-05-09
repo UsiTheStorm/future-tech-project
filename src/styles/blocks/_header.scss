@@ -47,4 +47,12 @@
       }
     }
   }
+
+  &__contact-us-link {
+    @include mobile {
+      width: 100%;
+      max-width: rem(300);
+      align-self: center;
+    }
+  }
 }
