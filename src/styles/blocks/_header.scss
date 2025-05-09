@@ -53,6 +53,10 @@
   }
 
   &__menu {
+    @include mobile {
+      overflow-y: auto;
+    }
+
     &-list {
       display: flex;
       align-items: center;
@@ -60,6 +64,11 @@
 
       @include laptop {
         column-gap: rem(6);
+      }
+
+      @include mobile {
+        flex-direction: column;
+        row-gap: 1rem;
       }
     }
 
