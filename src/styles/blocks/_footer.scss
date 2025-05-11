@@ -40,8 +40,6 @@
     }
 
     &-list {
-      // display: flex;
-      // flex-direction: column;
       display: grid;
       grid-template-columns: 1fr;
       row-gap: fluid(18, 8);
@@ -53,7 +51,6 @@
       @include mobile {
         display: flex;
         flex-direction: column;
-        // grid-template-columns: 1fr;
       }
     }
 
@@ -94,6 +91,11 @@
         content: '|';
         margin-inline: rem(11);
       }
+    }
+  }
+  &__soc1als {
+    @include mobile {
+      order: -1;
     }
   }
 }
