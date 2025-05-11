@@ -56,6 +56,7 @@
     "no-plusplus": "off", // Дозволити використання операторів ++ та --
     "no-restricted-syntax": "off", // Відключає заборону на певні синтаксичні конструкції (як for...of, for...in)
     "no-console": "off", // Дозволити використання console.log()
+    // "doctype-first": "off", // Відключає заборону використання <!DOCTYPE html>
 
     // Стилістичні правила та правила форматування (контролюються Prettier)
     // Правила на кшталт "indent", "quotes", "semi", "linebreak-style"
