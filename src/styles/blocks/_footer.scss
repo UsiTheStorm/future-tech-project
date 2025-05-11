@@ -1,6 +1,8 @@
 @use '../helpers' as *;
 
 .footer {
+  color: var(--color-dark-40);
+
   &__body {
     padding-block: fluid(80, 40);
     border-bottom: var(--border);
