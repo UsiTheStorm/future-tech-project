@@ -38,10 +38,10 @@
 
   &__list {
     display: flex;
-    column-gap: rem(20);
+    column-gap: rem(25);
 
     @include laptop {
-      column-gap: rem(14);
+      column-gap: rem(20);
     }
   }
 
