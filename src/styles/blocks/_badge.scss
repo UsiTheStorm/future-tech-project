@@ -3,7 +3,7 @@
 .badge {
   display: inline-flex;
   padding: fluid(4, 2) fluid(14, 10);
-  font-size: rem(16);
+  font-size: rem(14);
   color: var(--color-light);
   background:
     linear-gradient(var(--color-dark-10), var(--color-dark-10)) padding-box,
@@ -12,7 +12,7 @@
   border-radius: rem(6);
 
   @include laptop {
-    font-size: rem(14);
+    font-size: rem(12);
     border-radius: rem(4);
   }
 }
