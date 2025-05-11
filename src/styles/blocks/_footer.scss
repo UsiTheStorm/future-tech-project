@@ -30,5 +30,11 @@
         }
       }
     }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: fluid(18, 8);
+    }
   }
 }
