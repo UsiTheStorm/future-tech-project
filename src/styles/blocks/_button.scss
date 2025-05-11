@@ -37,4 +37,12 @@
       padding: rem(10) rem(14);
     }
   }
+
+  &--footer {
+    padding: rem(10) rem(16);
+
+    @include laptop {
+      padding: rem(8) rem(14);
+    }
+  }
 }
