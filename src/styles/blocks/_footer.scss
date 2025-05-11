@@ -20,5 +20,15 @@
     @include mobile {
       row-gap: rem(20);
     }
+    &-column {
+      display: grid;
+      row-gap: fluid(36, 16);
+
+      &:last-child {
+        @include tablet {
+          grid-column: -1 / 1;
+        }
+      }
+    }
   }
 }
