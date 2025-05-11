@@ -1,1 +1,24 @@
 @use '../helpers' as *;
+
+.footer {
+  &__body {
+    padding-block: fluid(80, 40);
+    border-bottom: var(--border);
+  }
+
+  &__menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: start;
+    column-gap: fluid(80, 20);
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: rem(40);
+    }
+
+    @include mobile {
+      row-gap: rem(20);
+    }
+  }
+}
