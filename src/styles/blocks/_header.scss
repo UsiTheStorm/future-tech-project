@@ -26,7 +26,12 @@
       padding-block: rem(15);
     }
 
+    @include tablet {
+      padding-block: rem(10);
+    }
+
     @include mobile-s {
+      padding-block: rem(10);
       font-size: rem(12);
     }
 
