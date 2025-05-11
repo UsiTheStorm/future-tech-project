@@ -45,4 +45,31 @@
       column-gap: rem(8);
     }
   }
+
+  &__extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    padding-block: rem(40);
+
+    @include laptop {
+      padding-block: rem(24);
+    }
+
+    @include mobile {
+      flex-direction: column;
+      row-gap: rem(20);
+    }
+    &-menu {
+      &-list {
+        display: flex;
+      }
+
+      &-item:not(:last-child)::after {
+        content: '|';
+        margin-inline: rem(11);
+      }
+    }
+  }
 }
