@@ -1,21 +1,26 @@
+// Base
 @use 'normalize';
 @use 'fonts';
 @use 'variables';
 @use 'utils';
 @use 'globals';
 
+// Blocks
 @use 'blocks/icon';
 @use 'blocks/logo';
 @use 'blocks/button';
 @use 'blocks/burger-button';
 
+// Header
 @use 'blocks/header';
 
+// Footer
 @use 'blocks/badge';
 @use 'blocks/soc1als';
 @use 'blocks/footer';
 @use 'blocks/metrics';
 
+// Hero
 @use 'blocks/team';
 @use 'blocks/resources-preview';
 @use 'blocks/advantage-card';
