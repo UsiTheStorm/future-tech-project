@@ -70,4 +70,46 @@
     background-color: var(--color-dark);
     background-blend-mode: difference;
   }
+
+  &__advantages {
+    border-block: var(--border);
+
+    &-list {
+      @include tablet-above {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    &-item {
+      --paddingX: #{rem(80)};
+
+      padding-block: rem(50);
+
+      @include laptop {
+        --paddingX: #{rem(50)};
+
+        padding-block: rem(40);
+      }
+
+      @include tablet-above {
+        &:not(:first-child) {
+          padding-left: var(--paddingX);
+        }
+
+        &:not(:last-child) {
+          padding-right: var(--paddingX);
+          border-right: var(--border);
+        }
+      }
+
+      @include tablet {
+        padding-block: rem(30);
+
+        &:not(:last-child) {
+          border-bottom: var(--border);
+        }
+      }
+    }
+  }
 }
