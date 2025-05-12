@@ -67,5 +67,7 @@
 
     background: url('../../images/resources-preview/bg.png') 0 0 / cover
       no-repeat;
+    background-color: var(--color-dark);
+    background-blend-mode: difference;
   }
 }
