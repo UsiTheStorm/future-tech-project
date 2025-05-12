@@ -57,6 +57,17 @@
 
   &__metrics {
     grid-area: metrics;
+
+    @include tablet-above {
+      border-top: var(--border);
+    }
+
+    @include tablet {
+      &::before {
+        width: var(--100vw);
+        right: calc(var(--container-padding-x) * -1);
+      }
+    }
   }
 
   &__resources-preview {
@@ -69,6 +80,23 @@
       no-repeat;
     background-color: var(--color-dark);
     background-blend-mode: difference;
+
+    @include laptop {
+      padding-left: rem(50);
+      padding-bottom: rem(50);
+    }
+
+    @include tablet-above {
+      border-left: var(--border);
+    }
+
+    @include tablet {
+      width: var(--100vw);
+      margin-left: calc(var(--container-padding-x) * -1);
+      padding: rem(100) rem(40) rem(40);
+      background-image: url('../../images/resources-preview/bg_tablet.png');
+      background-size: contain;
+    }
   }
 
   &__advantages {
