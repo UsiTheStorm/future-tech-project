@@ -17,21 +17,20 @@
   }
 
   &__promo {
-    padding-block: rem(20);
+    padding-block: rem(10);
     text-align: center;
     background-color: var(--color-dark);
     border-bottom: var(--border);
 
     @include laptop {
-      padding-block: rem(15);
+      padding-block: rem(8);
     }
 
     @include tablet {
-      padding-block: rem(10);
+      padding-block: rem(5);
     }
 
     @include mobile-s {
-      padding-block: rem(10);
       font-size: rem(12);
     }
 
