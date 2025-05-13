@@ -45,4 +45,9 @@
       grid-area: link;
     }
   }
+
+  &__text {
+    padding: fluid(80, 40) fluid(162, 16);
+    font-size: fluid(24, 16);
+  }
 }
