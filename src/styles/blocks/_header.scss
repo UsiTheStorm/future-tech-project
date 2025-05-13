@@ -44,11 +44,11 @@
   }
 
   &__body {
-    padding-block: rem(24);
+    padding-block: rem(18);
     background-color: var(--color-dark-10);
 
     @include laptop {
-      padding-block: rem(20);
+      padding-block: rem(15);
     }
 
     &-inner {
