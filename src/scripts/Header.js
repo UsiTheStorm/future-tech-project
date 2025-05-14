@@ -27,11 +27,28 @@ class Header {
     document.documentElement.classList.toggle(this.stateClasses.isLock);
   };
 
+  highlightActiveLink = () => {
+    const links = this.rootElement.querySelectorAll('.header__menu-link');
+    const currentPath = window.location.pathname;
+
+    links.forEach(link => {
+      const linkPath = new URL(link.href).pathname; // Просте порівняння шляхів
+
+      if (linkPath === currentPath) {
+        link.classList.add(this.stateClasses.isActive);
+      } else {
+        link.classList.remove(this.stateClasses.isActive);
+      }
+    });
+  };
+
   bindEvents() {
     this.burgerButtonElement.addEventListener(
       'click',
       this.onBurgerButtonClick
     );
+
+    this.highlightActiveLink();
   }
 }
 
