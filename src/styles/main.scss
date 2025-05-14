@@ -55,6 +55,10 @@
 @use 'blocks/news-card';
 @use 'blocks/news';
 
+// Video
+@use 'blocks/video-player';
+@use 'blocks/video-card';
+
 // Temporary off
 .header,
 main > *:not(:last-child),
