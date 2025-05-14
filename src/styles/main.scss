@@ -40,6 +40,15 @@
 @use 'blocks/blog-card';
 @use 'blocks/download-info';
 
+// Reviews
+@use 'blocks/bordered-grid';
+@use 'blocks/rating-view';
+@use 'blocks/review-card';
+
+// About
+@use 'blocks/about-card';
+@use 'blocks/about';
+
 // Temporary off
 .header,
 main > *:not(:last-child),
