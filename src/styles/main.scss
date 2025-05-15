@@ -59,6 +59,10 @@
 @use 'blocks/video-player';
 @use 'blocks/video-card';
 
+// Blog
+@use 'blocks/table-of-contents';
+@use 'blocks/blog-details';
+
 // Temporary off
 // .header,
 // main > *:not(:last-child),
