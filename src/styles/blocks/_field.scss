@@ -48,6 +48,10 @@
       box-shadow: var(--shadow);
     }
 
+    &:focus-visible {
+      outline: 2px solid var(--color-light);
+    }
+
     &::placeholder {
       color: var(--color-dark-40);
     }
