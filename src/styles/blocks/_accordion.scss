@@ -1,6 +1,10 @@
 @use '../helpers' as *;
 
 .accordion {
+  &__title {
+    cursor: pointer;
+  }
+
   &__details {
     &[open] {
       .accordion__title {
