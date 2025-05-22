@@ -64,3 +64,13 @@
 // Blog
 @use 'blocks/table-of-contents';
 @use 'blocks/blog-details';
+
+// Contact
+@use 'blocks/contacts-card';
+@use 'blocks/field';
+@use 'blocks/select';
+@use 'blocks/checkbox';
+@use 'blocks/feedback-form';
+@use 'blocks/accordion';
+@use 'blocks/accordion-group';
+@use 'blocks/contacts';
