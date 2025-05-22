@@ -63,8 +63,9 @@
     // вимкнені конфігурацією "plugin:prettier/recommended".
 
     // Інші правила зі старої конфігурації або airbnb-base
-    "arrow-body-style": ["error", "as-needed"] // Вимагати скорочену форму стрілочних функцій
+    "arrow-body-style": ["error", "as-needed"], // Вимагати скорочену форму стрілочних функцій
 
+    "max-classes-per-file": ["error", 3] // Вимагати максимальну кількість класів в одному файлі
     // --- React правила (Видалені повністю) ---
     // "react/prop-types": "off",
     // "react/jsx-uses-react": "error",
